@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 500 500"
+	 style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{filter:url(#filter-1);}
+	.st1{fill:#333333;stroke:#333333;stroke-width:2;}
+	.st2{opacity:0.1;fill:none;stroke:#363338;stroke-width:2;}
+	.st3{filter:url(#filter-3);}
+	.st4{fill:#666666;stroke:#666666;stroke-width:2;}
+	.st5{fill:url(#path-6_2_);stroke:#FF8900;stroke-width:2;}
+	.st6{fill:#FF8900;stroke:#FFFF26;stroke-opacity:0.1;}
+	.st7{opacity:0.5;filter:url(#filter-7);}
+	.st8{fill:#363338;stroke:#363338;stroke-width:2;}
+</style>
+<filter  filterUnits="objectBoundingBox" height="200%" id="filter-7" width="200%" x="-50%" y="-50%">
+	<feOffset  dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+	<feGaussianBlur  in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2.5"></feGaussianBlur>
+	
+		<feColorMatrix  in="shadowBlurOuter1" result="shadowMatrixOuter1" type="matrix" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.07 0">
+		</feColorMatrix>
+	<feMerge>
+		<feMergeNode  in="shadowMatrixOuter1"></feMergeNode>
+		<feMergeNode  in="SourceGraphic"></feMergeNode>
+	</feMerge>
+</filter>
+<filter  filterUnits="objectBoundingBox" height="200%" id="filter-3" width="200%" x="-50%" y="-50%">
+	<feOffset  dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+	<feGaussianBlur  in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2.5"></feGaussianBlur>
+	
+		<feColorMatrix  in="shadowBlurOuter1" result="shadowMatrixOuter1" type="matrix" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.07 0">
+		</feColorMatrix>
+	<feMerge>
+		<feMergeNode  in="shadowMatrixOuter1"></feMergeNode>
+		<feMergeNode  in="SourceGraphic"></feMergeNode>
+	</feMerge>
+</filter>
+<filter  filterUnits="objectBoundingBox" height="200%" id="filter-1" width="200%" x="-50%" y="-50%">
+	<feOffset  dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+	<feGaussianBlur  in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2.5"></feGaussianBlur>
+	
+		<feColorMatrix  in="shadowBlurOuter1" result="shadowMatrixOuter1" type="matrix" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.07 0">
+		</feColorMatrix>
+	<feMerge>
+		<feMergeNode  in="shadowMatrixOuter1"></feMergeNode>
+		<feMergeNode  in="SourceGraphic"></feMergeNode>
+	</feMerge>
+</filter>
+<title>app-icon-board</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1" sketch:type="MSPage">
+	<g id="app-icon-board" transform="translate(-150.000000, -1.000000)" sketch:type="MSArtboardGroup">
+		<g id="icon" transform="translate(210.000000, 40.000000)" sketch:type="MSLayerGroup">
+			<g id="Bottom" class="st0">
+				<g sketch:type="MSShapeGroup">
+					<path id="path-2_4_" class="st1" d="M358.4,314.6c28.5-22.2,28.5-58.2,0-80.3l-116.9-91c-28.5-22.2-74.7-22.2-103.2,0
+						l-116.9,91c-28.5,22.2-28.5,58.2,0,80.3l116.9,91c28.5,22.2,74.7,22.2,103.2,0L358.4,314.6z"/>
+				</g>
+				<g>
+					<g id="path-2_2_">
+						<path class="st2" d="M358.4,314.6c28.5-22.2,28.5-58.2,0-80.3l-116.9-91c-28.5-22.2-74.7-22.2-103.2,0l-116.9,91
+							c-28.5,22.2-28.5,58.2,0,80.3l116.9,91c28.5,22.2,74.7,22.2,103.2,0L358.4,314.6z"/>
+					</g>
+				</g>
+			</g>
+			<g id="Middle" class="st3">
+				<g sketch:type="MSShapeGroup">
+					<path id="path-4_4_" class="st4" d="M358.4,251.3c28.5-22.2,28.5-58.2,0-80.3l-116.9-91c-28.5-22.2-74.7-22.2-103.2,0L21.4,171
+						c-28.5,22.2-28.5,58.2,0,80.3l116.9,91c28.5,22.2,74.7,22.2,103.2,0L358.4,251.3z"/>
+				</g>
+				<g>
+					<g id="path-4_2_">
+						<path class="st2" d="M358.4,251.3c28.5-22.2,28.5-58.2,0-80.3l-116.9-91c-28.5-22.2-74.7-22.2-103.2,0L21.4,171
+							c-28.5,22.2-28.5,58.2,0,80.3l116.9,91c28.5,22.2,74.7,22.2,103.2,0L358.4,251.3z"/>
+					</g>
+				</g>
+			</g>
+			<g id="Top">
+				<g sketch:type="MSShapeGroup">
+					
+						<linearGradient id="path-6_2_" gradientUnits="userSpaceOnUse" x1="-114.3552" y1="606.5096" x2="-114.3552" y2="607.5096" gradientTransform="matrix(379.7938 0 0 -295.692 43621.2812 179635.7031)">
+						<stop  offset="0" style="stop-color:#4BA400"/>
+						<stop  offset="1" style="stop-color:#47FF00"/>
+					</linearGradient>
+					<path id="path-6" class="st5" d="M358.4,188c28.5-22.2,28.5-58.2,0-80.3l-116.9-91c-28.5-22.2-74.7-22.2-103.2,0l-116.9,91
+						c-28.5,22.2-28.5,58.2,0,80.3l116.9,91c28.5,22.2,74.7,22.2,103.2,0L358.4,188z"/>
+				</g>
+				<g>
+					<path id="path-6_1_" class="st6" d="M358.4,188c28.5-22.2,28.5-58.2,0-80.3l-116.9-91c-28.5-22.2-74.7-22.2-103.2,0l-116.9,91
+						c-28.5,22.2-28.5,58.2,0,80.3l116.9,91c28.5,22.2,74.7,22.2,103.2,0L358.4,188z"/>
+				</g>
+			</g>
+			<g id="countour" class="st7">
+				<g sketch:type="MSShapeGroup">
+					<path id="path-8_4_" class="st8" d="M201,73.9c62,40.1,43.1,90.6,43.1,90.6s6.7,7.6,10,17c3.3,9.4,3.3,21,2.7,21.3
+						s-8.5-13.1-22.2-13.1c-13.7,0-20.7,13.1-45,13.1c-54.8,0-78.6-44.9-78.6-44.9s24.1,17.3,49.4,16.7c25.2-0.6,32.2-7.9,32.2-7.9
+						s-11.3-9.4-30.7-28.4s-37.7-45.2-37.7-45.2s29.3,23.2,38.7,30c9.4,6.8,18.8,13,18.8,13s-9.1-9.8-15.5-17.7
+						s-22.8-31.7-22.8-31.7s25.2,22.7,36.6,31.7c11.4,9,33.3,24.2,33.3,24.2S226.5,112.6,201,73.9z"/>
+				</g>
+				<g>
+					<g id="path-8_2_">
+						<path class="st2" d="M201,73.9c62,40.1,43.1,90.6,43.1,90.6s6.7,7.6,10,17c3.3,9.4,3.3,21,2.7,21.3s-8.5-13.1-22.2-13.1
+							c-13.7,0-20.7,13.1-45,13.1c-54.8,0-78.6-44.9-78.6-44.9s24.1,17.3,49.4,16.7c25.2-0.6,32.2-7.9,32.2-7.9s-11.3-9.4-30.7-28.4
+							s-37.7-45.2-37.7-45.2s29.3,23.2,38.7,30c9.4,6.8,18.8,13,18.8,13s-9.1-9.8-15.5-17.7s-22.8-31.7-22.8-31.7
+							s25.2,22.7,36.6,31.7c11.4,9,33.3,24.2,33.3,24.2S226.5,112.6,201,73.9z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
