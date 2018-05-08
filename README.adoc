@@ -1,0 +1,123 @@
+:name: SwiftyCLI
+:author: Elias Abel
+:mail: admin@meniny.cn
+:desc: a Swifty command lint tool
+:version: 1.0.0
+:na: N/A
+:yes: ✔️
+:no: ❌
+:ios: {na}
+:macos: 10.9
+:watchos: {na}
+:tvos: {na}
+:linux: {yes}
+:xcode: 9.3
+:swift: 4.1
+:license: MIT
+:platform: macOS
+= Meet `{name}`
+{author} <{mail}>
+v{version}, 2018-05-08
+
+[subs="attributes"]
+++++
+<p align="center">
+  <img src="./Assets/{name}.png" alt="{name}">
+  <br/><br/>
+  <img alt="Author" src="https://img.shields.io/badge/author-Elias%20Abel-blue.svg">
+  <img alt="EMail" src="https://img.shields.io/badge/mail-admin@meniny.cn-orange.svg">
+  <img alt="MIT" src="https://img.shields.io/badge/license-{license}-blue.svg">
+  <br/>
+  <img alt="Version" src="https://img.shields.io/badge/version-{version}-brightgreen.svg">
+  <img alt="Platforms" src="https://img.shields.io/badge/platform-{platform}-lightgrey.svg">
+  <img alt="Swift" src="https://img.shields.io/badge/swift-{swift}%2B-orange.svg">
+  <br/>
+  <img alt="Build Passing" src="https://img.shields.io/badge/build-passing-brightgreen.svg">
+  <img alt="Cocoapods" src="https://img.shields.io/badge/cocoapods-compatible-brightgreen.svg">
+  <img alt="Carthage" src="https://img.shields.io/badge/carthage-compatible-brightgreen.svg">
+  <img alt="SPM" src="https://img.shields.io/badge/spm-compatible-brightgreen.svg">
+</p>
+++++
+
+:toc:
+
+== 🏵 Introduction
+
+**{name}** is {desc}.
+
+== 📋 Requirements
+
+[%header]
+|===
+2+^m|Type 1+^m|Requirement
+
+1.5+^.^|Platform ^|iOS ^|{ios}+
+^|macOS ^e|{macos}
+^|tvOS ^e|{tvos}
+^|watchOS ^e|{watchos}
+^|Linux ^e|{linux}
+
+^|IDE ^|Xcode ^| {xcode}+
+^|Language ^|Swift ^| {swift}+
+|===
+
+== 📲 Installation
+
+=== CocoaPods
+
+`{name}` is available on link:https://cocoapods.org[CocoaPods].
+
+[source, ruby, subs="verbatim,attributes"]
+----
+platform :osx, '{macos}'
+use_frameworks!
+pod '{name}'
+----
+
+==== Rome
+
+Add `plugin 'cocoapods-rome'` to your `Podfile`.
+
+Then, before you run `pod insall`, you have to install [cocoapods-rome](https://github.com/neonichu/Rome) plugin:
+
+[source, console, subs="verbatim,attributes"]
+----
+$ gem install cocoapods-rome
+----
+
+=== Manually
+
+Copy all files in the `{name}` directory into your project.
+
+== ♨️ Run
+
+To run a CLI file:
+
+[source, console, subs="verbatim,attributes"]
+----
+$ chmod a+x SomeCLI.swift
+$ ./SomeCLI.swift
+----
+
+== 🛌 Dependency
+
+{na}
+
+== ❤️ Contribution
+
+You are welcome to fork and submit pull requests.
+
+== 🔖 License
+
+`{name}` is open-sourced software, licensed under the link:./LICENSE.md[`{license}`] license.
+
+== 🔫 Usage
+
+[source, swift, subs="verbatim,attributes"]
+----
+#!/usr/bin/env xcrun swift -F ./Rome/ -framework SwiftyCLI
+
+import {name}
+
+// ...
+----
