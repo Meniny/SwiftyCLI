@@ -1,0 +1,8 @@
+.
+├── YourScript.swift
+│
+├── Podfile
+├── Pods
+│   └── ...
+└── Rome
+    └── SwiftyCLI.framework

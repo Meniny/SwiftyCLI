@@ -1,0 +1,11 @@
+framework module SwiftyCLI {
+  umbrella header "SwiftyCLI-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftyCLI.Swift {
+    header "SwiftyCLI-Swift.h"
+    requires objc
+}

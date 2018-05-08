@@ -85,19 +85,24 @@ Then, before you run `pod insall`, you have to install [cocoapods-rome](https://
 $ gem install cocoapods-rome
 ----
 
+[source, ruby, subs="verbatim,attributes"]
+----
+platform :osx, '10.10'
+
+plugin 'cocoapods-rome', {
+  dsym: true,
+  configuration: 'Release'
+}
+
+target 'TargetName' do
+  use_frameworks!
+  pod '{name}', :path => '../'
+end
+----
+
 === Manually
 
 Copy all files in the `{name}` directory into your project.
-
-== ♨️ Run
-
-To run a CLI file:
-
-[source, console, subs="verbatim,attributes"]
-----
-$ chmod a+x SomeCLI.swift
-$ ./SomeCLI.swift
-----
 
 == 🛌 Dependency
 
@@ -113,6 +118,7 @@ You are welcome to fork and submit pull requests.
 
 == 🔫 Usage
 
+.YourScript.swift
 [source, swift, subs="verbatim,attributes"]
 ----
 #!/usr/bin/env xcrun swift -F ./Rome/ -framework SwiftyCLI
@@ -120,4 +126,30 @@ You are welcome to fork and submit pull requests.
 import {name}
 
 // ...
+----
+
+[CAUTION]
+====
+The tree of your folder should look like this:
+[source, console, subs="verbatim"]
+----
+.
+├── YourScript.swift
+│
+├── Podfile
+├── Pods
+│   └── ...
+└── Rome
+    └── SwiftyCLI.framework
+----
+====
+
+== ♨️ Running
+
+To run your script file:
+
+[source, console, subs="verbatim,attributes"]
+----
+$ chmod a+x YourScript.swift
+$ ./YourScript.swift
 ----

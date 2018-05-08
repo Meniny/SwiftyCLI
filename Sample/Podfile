@@ -1,5 +1,11 @@
 platform :osx, '10.10'
-use_frameworks!
-# plugin 'cocoapods-rome'
 
-pod 'SwiftyCLI', :path => '../SwiftyCLI.podspec'
+plugin 'cocoapods-rome', {
+  dsym: true,
+  configuration: 'Release'
+}
+
+target 'rome' do
+  use_frameworks!
+  pod 'SwiftyCLI', :path => '../'
+end
